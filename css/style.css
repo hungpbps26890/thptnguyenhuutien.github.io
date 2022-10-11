@@ -1,0 +1,333 @@
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  color: white;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Start Header */
+.top-bar {
+  display: block;
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+.top-bar img {
+  float: left;
+  width: 120px;
+  padding: 10px 30px;
+}
+
+.top-bar h1 {
+  float: left;
+  text-align: center;
+  font-size: 40px;
+  color: blue;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+
+.container nav {
+  float: left;
+  width: 1180px;
+  text-align: center;
+  background-color: blue;
+  line-height: 60px;
+  border-radius: 30px;
+}
+
+.container nav .menu {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 30px;
+}
+
+.container nav .menu:hover {
+  text-decoration: underline;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu ul li {
+  float: left;
+  padding: 0px 4%;
+  position: relative;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.menu ul li ul {
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+  list-style-type: none;
+  position: absolute;
+  display: none;
+}
+
+.menu ul li:hover ul {
+  display: block;
+}
+
+.menu ul li ul li {
+  padding: 0;
+  border-top: 1px solid white;
+
+  width: 100%;
+  text-align: left;
+}
+
+.menu ul li ul li:first-child {
+  border-bottom: 1px solid white;
+}
+
+.menu ul li ul li:last-child {
+  border: none;
+}
+
+.menu ul li ul li a {
+  padding: 5px;
+}
+
+.anh-header {
+  width: 100%;
+}
+/* End Header */
+
+/* Start Footer */
+footer .container {
+  background-color: blue;
+  height: 250px;
+}
+
+footer .container .col-left {
+  float: left;
+  width: 60%;
+  margin-left: 12%;
+}
+
+footer .container .col-right {
+  float: left;
+  width: 28%;
+}
+
+footer .container .col-left h2 {
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+footer .container .col-right h2 {
+  color: white;
+  width: 100%;
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/* End Footer */
+
+/* Start Article */
+article .container {
+  height: 1000px;
+}
+
+.left-side {
+  width: 63%;
+  margin-right: 2%;
+  height: 100%;
+  float: left;
+}
+
+.right-side {
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+
+.left-side .hoat-dong {
+  height: 60%;
+}
+
+.hoat-dong h2 {
+  margin: 10px 0;
+  font-size: 30px;
+  color: blue;
+}
+.hoat-dong img {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hoat-dong .bottom-row {
+  height: 30%;
+}
+
+.hoat-dong .bottom-row .tin-hoat-dong {
+  width: 21%;
+  margin: 0 2%;
+  float: left;
+  text-align: center;
+}
+
+.tin-hoat-dong img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tin-hoat-dong a {
+  margin: 0;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.tin-hoat-dong a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.left-side .tin-tuc {
+  height: 40%;
+  /* background-color: rgb(44, 44, 44); */
+}
+.tin-tuc h2 {
+  margin: 10px 0;
+  font-size: 30px;
+  color: blue;
+}
+
+.tin-tuc .tin-tuc-left {
+  width: 49%;
+  height: 80%;
+  margin-right: 2%;
+  float: left;
+  /* background-color: blueviolet; */
+}
+
+.tin-tuc .tin-tuc-right {
+  width: 49%;
+  height: 80%;
+  float: left;
+  /* background-color: brown; */
+}
+
+.tin-tuc ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+
+.tin-tuc ul li {
+  width: 100%;
+  height: 25%;
+  padding: 0;
+  margin-bottom: 5%;
+  font-size: 17px;
+}
+
+.tin-tuc ul li a {
+  color: black;
+}
+
+.tin-tuc a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.right-side .thong-bao {
+  height: 50%;
+}
+
+.thong-bao h2 {
+  margin: 10px 0;
+  font-size: 30px;
+  color: blue;
+}
+
+.thong-bao .tin-thong-bao {
+  width: 100%;
+  height: 25%;
+  margin-bottom: 5%;
+}
+
+.tin-thong-bao img {
+  width: 48%;
+  margin-right: 2%;
+  height: 100%;
+  object-fit: cover;
+  float: left;
+}
+
+.tin-thong-bao a {
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.tin-thong-bao a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.right-side .hinh-anh {
+  height: 50%;
+}
+
+.hinh-anh h2 {
+  margin: 10px 0;
+  font-size: 30px;
+  color: blue;
+}
+
+.hinh-anh .row-hinh-anh {
+  width: 100%;
+  height: 25%;
+  margin-bottom: 5%;
+}
+
+.row-hinh-anh img {
+  width: 46%;
+  margin: 0 2%;
+  height: 100%;
+  float: left;
+}
+/* End Article */

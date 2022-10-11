@@ -1,0 +1,271 @@
+body {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.row {
+  float: left;
+  width: 100%;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+/* Start Header */
+header {
+  min-height: 204px;
+}
+
+.top-bar {
+  display: block;
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+.top-bar img {
+  float: left;
+  width: 120px;
+  padding: 10px 30px;
+}
+
+.top-bar h1 {
+  float: left;
+  text-align: center;
+  font-size: 40px;
+  color: blue;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+
+.container nav {
+  float: left;
+  width: 1180px;
+  text-align: center;
+  background-color: blue;
+  line-height: 60px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.container nav .menu {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 30px;
+}
+
+.container nav .menu:hover {
+  text-decoration: underline;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu ul li {
+  float: left;
+  padding: 0px 4%;
+  position: relative;
+}
+
+.menu ul li a {
+  color: white;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.menu ul li ul {
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+  list-style-type: none;
+  position: absolute;
+  display: none;
+}
+
+.menu ul li:hover ul {
+  display: block;
+}
+
+.menu ul li ul li {
+  padding: 0;
+  border-top: 1px solid white;
+
+  width: 100%;
+  text-align: left;
+}
+
+.menu ul li ul li:first-child {
+  border-bottom: 1px solid white;
+}
+
+.menu ul li ul li:last-child {
+  border: none;
+}
+
+.menu ul li ul li a {
+  padding: 5px;
+}
+/* End Header */
+
+/* Start Footer */
+
+footer .container {
+  background-color: blue;
+  min-height: 250px;
+}
+
+footer .container .col-left {
+  float: left;
+  width: 60%;
+  margin-left: 12%;
+  padding: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+footer .container .col-right {
+  float: left;
+  width: 28%;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer .container .col-left h2 {
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+footer .container .col-right h2 {
+  color: white;
+  width: 100%;
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/* End Footer */
+
+/* Start Article */
+article .container {
+  height: 1500px;
+}
+
+article .col-left {
+  width: 68%;
+  min-height: 900px;
+  margin-right: 2%;
+  float: left;
+  /* background-color: gray; */
+}
+
+.le-khai-giang h2 {
+  margin: 10px 0;
+  font-size: 30px;
+  color: blue;
+}
+
+.le-khai-giang h3 {
+  margin: 10px 0;
+  font-size: 25px;
+  color: blue;
+}
+
+.le-khai-giang img {
+  float: left;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin: 10px 0;
+}
+
+.tin-lien-quan a {
+  float: left;
+  width: 100%;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 18px;
+}
+
+.tin-lien-quan a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+article .col-right {
+  width: 30%;
+  min-height: 1000px;
+  float: left;
+}
+
+.thong-bao h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: blue;
+}
+
+.thong-bao .tin-thong-bao {
+  width: 100%;
+  height: 25%;
+  margin-bottom: 5%;
+}
+
+.tin-thong-bao img {
+  width: 48%;
+  margin-right: 2%;
+  height: 100%;
+  object-fit: cover;
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tin-thong-bao a {
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.tin-thong-bao a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+/* End Article */
